@@ -1,5 +1,5 @@
 # CrawlerVuln
-一个NodeJS实现的动态漏扫爬虫
+一个NodeJS实现的漏扫动态爬虫
 ## 环境配置
 1. 需要搭建一个MongoDB，去docker仓库拉一个即可，然后将在`module/Databases.js`第二行中修改数据库配置信息。
 2. chromium修改版可以用`extension/`目录下的,也可以去这里下载：https://github.com/myvyang/chromium_for_spider/releases
