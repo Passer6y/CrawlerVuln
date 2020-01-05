@@ -1,0 +1,37 @@
+{
+  "name": "Sync Cookie For Spider",
+  "description": "Passer6y",
+  "version": "1.0",
+  
+  "background": {
+      "scripts": [
+          "js/jquery-1.7.2.min.js",
+          "js/background.js"
+      ]
+  },
+
+  //"default_popup": "popup.html",
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "notifications",
+    "contextMenus",
+    "cookies"
+  ],
+
+  "icons": 
+  { 
+    "16": "image/icon16.png",             
+    "48": "image/icon48.png",            
+    "128": "image/icon128.png" 
+  },  
+
+  "browser_action": {
+	   "default_icon": "image/icon16.png",
+     "default_popup": "popup.html"
+	},
+
+  "manifest_version":2
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Screen Shot Manager</title>
+</head>
+<body>
+
+<h2>添加目标</h2>
+<form action="/add-targets" method="post" enctype="multipart/form-data">
+    Urls: <input type="file" name="targets">
+    <input type="submit" value="提交">
+</form>
+<h2>添加目标范围</h2>
+<form action="/add-scopes" method="post" enctype="multipart/form-data">
+    Urls: <input type="file" name="scopes">
+    <input type="submit" value="提交">
+</form>
+<h2>添加Cookie</h2>
+<form action="/add-cookie" method="post" enctype="multipart/form-data">
+    domain: <input type="text" name="scopes">
+    name: <input type="text" name="name">
+    value: <input type="text" name="value">
+    <input type="submit" value="提交">
+</form>
+
+
+</body>
+</html>
