@@ -7,4 +7,4 @@
 4. 安装同步Cookie的Chrome插件：Chrome选择More Tools->extension->load unpacked->选择文件夹`extension/syncookie`即可加载，接着浏览器右击选择插件`Start Sync Cookie`即可
 5. 安装node环境依赖:`npm install`
 
-> 配合文章食用更佳
+> 环境搭建有点复杂，下次更新弄一个docker一键。另外配合文章食用更佳~
